@@ -441,6 +441,7 @@ header .header-left-menu a, header .header-right-menu a {
 
 .free-trial-container {
     background-color: #B4D0E7;
+    margin-bottom: 150px;
 }
 
 .container-normal .free-trial {
@@ -462,4 +463,75 @@ header .header-left-menu a, header .header-right-menu a {
     background-color: white;
     padding: 10px 2px;
     width: 230px;
+}
+
+/* frequently asked questions */
+
+.container-normal .frequently-asked {
+    padding-bottom: 150px;
+}
+
+.container-normal .frequently-asked h4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid grey;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-normal .frequently-asked h4:last-child {
+    border-bottom: 1px solid grey;
+}
+
+/* footer */
+
+
+footer .container-big {
+    background-color: black;
+    min-height: 400px;
+    margin: 0;
+}
+
+footer .container-big .content-big .alignment-footer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+footer .container-big .content-big {
+    color: white;
+}
+
+footer .container-big .content-big .box-footer{
+    color:  white;
+    width: calc(100% / 5);
+    padding-bottom: 120px;
+}
+
+footer .container-big .content-big hr {
+    margin-bottom: 30px;
+    width: 90px;
+    border: 0.5px solid lightgrey;
+}
+
+footer .container-big .content-big p {
+    font-size: 10px;
+}
+
+.box-footer h5{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.box-footer ul li a {
+    text-decoration: none;
+    color:  white;
+    font-size: 12px;
+}
+
+.box-footer ul li {
+    list-style: none;
 }
