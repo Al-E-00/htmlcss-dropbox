@@ -349,6 +349,42 @@ header .header-left-menu a, header .header-right-menu a {
 
 .central-square-designit {
     width: calc(100% / 3);
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.designit .central-square-designit h2 {
+    font-size: 50px;
+} 
+
+.designit .central-square-designit .trademark-symbol {
+    font-size: 15px;
+}
+
+.designit .central-square-designit p {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+.designit .central-square-designit .company-reference {
+    font-weight: 400;
+}
+
+.designit .central-square-designit .quote-designit {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+.designit .central-square-designit .bold-word {
+    font-weight: 600;
+}
+
+.designit .central-square-designit hr {
+    width: 90px;
+    border: 0.5px solid lightgrey;
+    margin-bottom: 35px;
 }
 
 .right-square-designit {
@@ -362,6 +398,10 @@ header .header-left-menu a, header .header-right-menu a {
     height: calc(100% / 2);
     flex-grow: 0;
 }
+
+
+
+/* box colours designit section*/
 
 .designit .left-square-designit .designit-logo {
     background-color: #A3D39B;
