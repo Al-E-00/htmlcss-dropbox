@@ -324,10 +324,52 @@ header .header-left-menu a, header .header-right-menu a {
 
 .dropbox-companies-numbers {
     max-width: 500px;
+    padding-bottom: 110px;
 }
 
 .dropbox-companies-numbers a {
     font-weight: 100;
     font-size: 14px;
-    padding-bottom: 110px;
+}
+
+/* section: designit-- square layout */
+
+.designit {
+    display: flex;
+    flex-direction: row;
+    max-height: 510px;
+    width: 100%;
+}
+
+.left-square-designit {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.central-square-designit {
+    width: calc(100% / 3);
+}
+
+.right-square-designit {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.left-square-designit .little-square-inside, .right-square-designit .little-square-inisde {
+    width: calc(100% / 2);
+    height: calc(100vh / 6)
+    
+}
+
+.left-square-designit .little-square-inside img, .right-square-designit .little-square-inside img {
+    width: 100%;
+}
+
+
+
+.left-square-designit .little-square-inside .designit {
+    width: 100%;
+    background-color: green;
 }
