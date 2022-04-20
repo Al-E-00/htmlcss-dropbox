@@ -3,3 +3,247 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+}
+
+header .header-left-menu, header .header-right-menu {
+    align-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+header .header-left-menu a, header .header-right-menu a {
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+/* first section: "Tutto ciò che ti serve per il lavoro.." */
+.container-big {
+    max-height: 510px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #B4D0E7;
+}
+
+.content-big {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.content-big h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.sub-section-content-big {
+    display: flex;
+}
+
+.sub-section-content-big .content-big-left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+.sub-section-content-big .content-big-left-column p {
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.blue-button-layout {
+    background-color: #0161FF;
+    color: white;
+    padding: 6px 2px;
+    border: 0px;
+    width: 180px;
+}
+
+.sub-section-content-big .content-big-left-column a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.sub-section-content-big .content-big-left-column i {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.sub-section-content-big .content-big-right-column {
+    width: 70%;
+}
+
+.sub-section-content-big .content-big-right-column img {
+    width: 600px;
+    padding-top: 20px
+}
+
+/* second section: "trova il piano business che..." */
+
+.container-normal {
+    width: 100%;
+}
+
+.content-normal {
+    width: 65%;
+    margin: auto;
+}
+
+.container-normal .content-normal h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.container-normal .content-normal input {
+    margin-bottom: 45px;
+}
+
+.vertical-column-layout {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.container-normal .columns-body {
+    padding: 20px 30px;
+    min-height: 750px
+}
+
+.container-normal .columns-vertical {
+    width: calc((100% / 3) - 10px);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+}
+
+.content-normal .columns-vertical .plan-selection {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.content-normal .columns-vertical ul {
+    padding-left: 20px;
+}
+
+.content-normal .columns-vertical h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.content-normal .columns-vertical .subtitle-top-column {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.content-normal .columns-vertical .more-information-top-column {
+    font-size: 12px;
+    font-weight: 100;
+    padding-bottom: 30px;
+    color: grey;
+}
+
+.columns-body ul li{
+    padding-bottom: 14px;
+    font-size: 14px;
+}
+
+.content-normal .columns-vertical .top-column {
+    padding-bottom: 20px;
+}
+
+.columns-body button {
+    padding: 10px 8px;
+    width: 210px;
+    margin-bottom: 30px;
+}
+
+.columns-vertical .columns-body span {
+    display: inline-block;
+    font-size: 14px;
+    padding-bottom: 35px;
+}
+
+.columns-vertical .columns-body hr {
+    font-size: 40px;
+    border: 0.5px solid lightgrey;
+    width: 50px;
+    margin-bottom: 40px;
+}
+
+.columns-vertical .bottom-column h4 {
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+/* horizontal column */
+
+.horizontal-column-layout {
+    border: 1px solid lightgrey;
+    margin-bottom: 100px;
+}
+
+.horizontal-column-layout .plan-selection {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.horizontal-column-layout .columns-horizontal {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 25px;
+    justify-content: space-between;
+}
+
+.columns-horizontal .left-column {
+    width: 70%;
+}
+
+.columns-horizontal .left-column h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.columns-horizontal .left-column .subtitle-left-column {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.columns-horizontal .left-column .more-information-left-column {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.columns-horizontal .right-column button {
+    padding: 10px 8px;
+    width: 210px;
+}
+
+
+
+
+
