@@ -397,6 +397,14 @@ header .header-left-menu a, header .header-right-menu a {
     width: calc(100% / 2);
     height: calc(100% / 2);
     flex-grow: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.designit .left-square-designit svg, .designit .right-square-designit svg {
+    width: 55%;
+    height: auto;
 }
 
 
