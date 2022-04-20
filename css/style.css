@@ -286,21 +286,21 @@ header .header-left-menu a, header .header-right-menu a {
 
 .blocks-section-dropbox-business {
     display: flex;
-    gap: 20px;
-    margin-bottom: 60px;
+    gap: 30px;
+    margin-bottom: 150px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .block-dropbox-business {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: calc((100% / 3) - (5px * 3));
+    width: calc((100% / 3) - (10px * 3));
 }
 
 .block-dropbox-business .image-section-dropbox-business {
-    width: 300px;
+    width: 250px;
     height: 250px;
 }
 
@@ -318,4 +318,16 @@ header .header-left-menu a, header .header-right-menu a {
 .dropbox-business-operation .block-dropbox-business p {
     font-weight: 300;
     font-size: 15px;
+}
+
+/* section: "più di 500.000 team utilizzano..." */
+
+.dropbox-companies-numbers {
+    max-width: 500px;
+}
+
+.dropbox-companies-numbers a {
+    font-weight: 100;
+    font-size: 14px;
+    padding-bottom: 110px;
 }
