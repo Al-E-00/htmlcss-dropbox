@@ -437,3 +437,29 @@ header .header-left-menu a, header .header-right-menu a {
 }
 
 
+/* section: " porta dropbox nella tua azienda" */
+
+.free-trial-container {
+    background-color: #B4D0E7;
+}
+
+.container-normal .free-trial {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.free-trial-container .free-trial h2 {
+    padding: 0;
+    width: 50%;
+    color: #61082B;
+}
+
+.free-trial-container .free-trial button {
+    border: 0px;
+    color: grey;
+    background-color: white;
+    padding: 10px 2px;
+    width: 230px;
+}
