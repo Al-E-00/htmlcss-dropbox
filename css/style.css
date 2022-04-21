@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    min-height: 50px;
+    min-height: 40px;
     align-items: center;
 }
 
@@ -28,6 +28,21 @@ header .header-left-menu a, header .header-right-menu a {
     padding: 4px;
     text-decoration: none;
     color: black;
+    font-size: 12px;
+    font-weight: 200;
+    align-items: center;
+    line-height: 20px;
+}
+
+header .header-left-menu img {
+    width: 22%;
+    height: 22%;
+    padding: 6px;
+}
+
+header .header-right-menu button {
+    width: 50px;
+    padding: 4px 2px;
 }
 
 /* first section: "Tutto ciò che ti serve per il lavoro.." */
