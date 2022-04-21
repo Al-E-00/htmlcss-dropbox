@@ -17,6 +17,7 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
+    max-width: 1560px;
     background-color: white;
     z-index: 1;
     top: 0;
@@ -53,18 +54,17 @@ header .header-right-menu button {
 
 /* first section: "Tutto ciò che ti serve per il lavoro.." */
 .container-big {
-    max-height: 510px;
-    width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 155px;
     background-color: #B4D0E7;
 }
 
 .content-big {
     width: 70%;
+    max-width: 990px;
     margin: auto;
     position: relative;
-    top: 50px;
-    margin-top: 40px;
+    top: 75px;
+    margin-top: 20px
 }
 
 .content-big h1 {
@@ -121,11 +121,11 @@ header .header-right-menu button {
 /* second section: "trova il piano business che..." */
 
 .container-normal {
-    width: 100%;
+    max-width: 1450px;
 }
 
 .content-normal {
-    width: 65%;
+    max-width: 940px;
     margin: auto;
 }
 
@@ -442,8 +442,8 @@ header .header-right-menu button {
 }
 
 .designit .left-square-designit .little-square-inside, .designit .right-square-designit .little-square-inside {
-    width: calc(100% / 2);
-    height: calc(100% / 2);
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     flex-grow: 0;
     display: flex;
     align-content: center;
