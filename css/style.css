@@ -142,6 +142,8 @@ header .header-right-menu button {
 .radio-selector-time-payment {
     display: flex;
     gap: 50px;
+    font-weight: 200;
+    font-size: 14px;
 }
 
 .vertical-column-layout {
@@ -158,6 +160,7 @@ header .header-right-menu button {
 .container-normal .columns-vertical {
     display: flex;
     width: calc(100% / 3);
+    max-width: 960px;
     flex-direction: column;
     border: 1px solid lightgrey;
 }
@@ -167,10 +170,12 @@ header .header-right-menu button {
     text-align: center;
     border-bottom: 1px solid lightgrey;
     padding: 10px;
-}
-
-.content-normal .columns-vertical ul {
-    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .content-normal .columns-vertical h3 {
@@ -196,13 +201,22 @@ header .header-right-menu button {
     font-size: 14px;
 }
 
+.columns-body ul {
+    margin-left: 22px;
+}
+
+.columns-body .bottom-column ul li i{
+    color: #0B62FF;
+}
+
+
 .content-normal .columns-vertical .top-column {
     padding-bottom: 20px;
 }
 
 .columns-body button {
     padding: 10px 8px;
-    width: 210px;
+    width: 100%;
     margin-bottom: 30px;
     align-content: center;
 }
@@ -237,6 +251,12 @@ header .header-right-menu button {
     text-align: center;
     border-bottom: 1px solid lightgrey;
     padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .horizontal-column-layout .columns-horizontal {
@@ -557,6 +577,10 @@ footer .container-big .content-big hr {
 
 footer .container-big .content-big p {
     font-size: 10px;
+    color: grey;
+    display: flex;
+    gap: 3px;
+    align-items: flex-end;
 }
 
 .box-footer h5{
