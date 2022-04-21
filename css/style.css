@@ -417,10 +417,12 @@ header .header-right-menu button {
     justify-content: center;
 }
 
-.designit .left-square-designit svg, .designit .right-square-designit svg {
+.designit .left-square-designit .little-square-inside img, .designit .right-square-designit .little-square-inside img {
     width: 55%;
     height: auto;
+    filter: invert(1);
 }
+
 
 
 
