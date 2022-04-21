@@ -15,6 +15,11 @@ header {
     justify-content: space-between;
     min-height: 40px;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    top: 0;
 }
 
 header .header-left-menu, header .header-right-menu {
@@ -42,7 +47,8 @@ header .header-left-menu img {
 
 header .header-right-menu button {
     width: 50px;
-    padding: 4px 2px;
+    height: 25px;
+    padding: 2px 2px;
 }
 
 /* first section: "Tutto ciò che ti serve per il lavoro.." */
@@ -58,6 +64,7 @@ header .header-right-menu button {
     margin: auto;
     position: relative;
     top: 50px;
+    margin-top: 40px;
 }
 
 .content-big h1 {
@@ -132,6 +139,11 @@ header .header-right-menu button {
     margin-bottom: 45px;
 }
 
+.radio-selector-time-payment {
+    display: flex;
+    gap: 50px;
+}
+
 .vertical-column-layout {
     display: flex;
     gap: 40px;
@@ -144,8 +156,8 @@ header .header-right-menu button {
 }
 
 .container-normal .columns-vertical {
-    width: calc((100% / 3) - 10px);
     display: flex;
+    width: calc(100% / 3);
     flex-direction: column;
     border: 1px solid lightgrey;
 }
@@ -192,6 +204,7 @@ header .header-right-menu button {
     padding: 10px 8px;
     width: 210px;
     margin-bottom: 30px;
+    align-content: center;
 }
 
 .columns-vertical .columns-body span {
@@ -420,6 +433,7 @@ header .header-right-menu button {
 .designit .left-square-designit .little-square-inside img, .designit .right-square-designit .little-square-inside img {
     width: 55%;
     height: auto;
+    object-fit: contain;
     filter: invert(1);
 }
 
