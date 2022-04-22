@@ -43,8 +43,8 @@ header .header-left-menu a, header .header-right-menu a {
 /* hover effect on link on navbar */
 
 header .header-left-menu a:hover, header .header-right-menu a:hover {
-    text-decoration: underline;
-    
+    border-bottom: 1px solid #B4D0E7;
+
 }
 
 header .header-left-menu img {
