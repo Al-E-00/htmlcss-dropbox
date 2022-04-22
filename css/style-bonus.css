@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    max-width: 1560px;
+    background-color: white;
+    z-index: 1;
+    top: 0;
+}
+
+header .header-left-menu, header .header-right-menu {
+    align-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+header .header-left-menu a, header .header-right-menu a {
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 200;
+    align-items: center;
+    line-height: 20px;
+}
+
+/* hover effect on link on navbar */
+
+header .header-left-menu a:hover, header .header-right-menu a:hover {
+    text-decoration: underline;
+    
+}
+
+header .header-left-menu img {
+    width: 22%;
+    height: 22%;
+    padding: 6px;
+}
+
+header .header-right-menu button {
+    width: 50px;
+    height: 25px;
+    padding: 2px 2px;
+}
+
+/* first section: "Tutto ciò che ti serve per il lavoro.." */
+.container-big {
+    margin-bottom: 155px;
+    background-color: #B4D0E7;
+}
+
+.content-big {
+    width: 70%;
+    max-width: 990px;
+    margin: auto;
+    position: relative;
+    top: 75px;
+    margin-top: 20px
+}
+
+.content-big h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.sub-section-content-big {
+    display: flex;
+}
+
+.sub-section-content-big .content-big-left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+.sub-section-content-big .content-big-left-column p {
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.blue-button-layout {
+    background-color: #0161FF;
+    color: white;
+    padding: 6px 2px;
+    border: 0px;
+    width: 180px;
+}
+
+.sub-section-content-big .content-big-left-column a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.sub-section-content-big .content-big-left-column i {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.sub-section-content-big .content-big-right-column {
+    width: 70%;
+}
+
+.sub-section-content-big .content-big-right-column img {
+    width: 600px;
+    padding-top: 20px
+}
+
+/* second section: "trova il piano business che..." */
+
+.container-normal {
+    max-width: 1450px;
+}
+
+.content-normal {
+    max-width: 940px;
+    margin: auto;
+}
+
+.container-normal .content-normal h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+.container-normal .content-normal input {
+    margin-bottom: 45px;
+}
+
+.radio-selector-time-payment {
+    display: flex;
+    gap: 50px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.vertical-column-layout {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.container-normal .columns-body {
+    padding: 20px 30px;
+    min-height: 750px
+}
+
+.container-normal .columns-vertical {
+    display: flex;
+    width: calc(100% / 3);
+    max-width: 960px;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+}
+
+.content-normal .columns-vertical .plan-selection {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.content-normal .columns-vertical h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.content-normal .columns-vertical .subtitle-top-column {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.content-normal .columns-vertical .more-information-top-column {
+    font-size: 12px;
+    font-weight: 100;
+    padding-bottom: 30px;
+    color: grey;
+}
+
+.columns-body ul li{
+    padding-bottom: 14px;
+    font-size: 14px;
+}
+
+.columns-body ul {
+    margin-left: 22px;
+}
+
+.columns-body .bottom-column ul li i{
+    color: #0B62FF;
+}
+
+
+.content-normal .columns-vertical .top-column {
+    padding-bottom: 20px;
+}
+
+.columns-body button {
+    padding: 10px 8px;
+    width: 100%;
+    margin-bottom: 30px;
+    align-content: center;
+}
+
+.columns-vertical .columns-body span {
+    display: inline-block;
+    font-size: 14px;
+    padding-bottom: 35px;
+}
+
+.columns-vertical .columns-body hr {
+    font-size: 40px;
+    border: 0.5px solid lightgrey;
+    width: 50px;
+    margin-bottom: 40px;
+}
+
+.columns-vertical .bottom-column h4 {
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+/* horizontal column */
+
+.horizontal-column-layout {
+    border: 1px solid lightgrey;
+    margin-bottom: 100px;
+}
+
+.horizontal-column-layout .plan-selection {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.horizontal-column-layout .columns-horizontal {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 25px;
+    justify-content: space-between;
+}
+
+.columns-horizontal .left-column {
+    width: 70%;
+}
+
+.columns-horizontal .left-column h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.columns-horizontal .left-column .subtitle-left-column {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.columns-horizontal .left-column .more-information-left-column {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.columns-horizontal .right-column button {
+    padding: 10px 8px;
+    width: 210px;
+}
+
+/* section: "entra in contatto con un partner Dropbox. */
+
+
+.partner-dropbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.partner-dropbox .image-section img{
+    width: 100%;
+}
+
+.partner-dropbox .partner-right-column {
+    padding: 35px 40px;
+    width: 70%;
+}
+
+.partner-dropbox .partner-right-column h3 {
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.partner-dropbox .partner-right-column p {
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.partner-dropbox .partner-right-column button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 2px;
+    width: 140px;
+}
+
+/* section: "più operazioni con Dropbox" */
+
+.blocks-section-dropbox-business {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-dropbox-business {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc((100% / 3) - (10px * 3));
+}
+
+.block-dropbox-business .image-section-dropbox-business {
+    width: 250px;
+    height: 250px;
+}
+
+.block-dropbox-business .image-section-dropbox-business img {
+    width: 100%;
+}
+
+.dropbox-business-operation .block-dropbox-business h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 16px;
+}
+
+.dropbox-business-operation .block-dropbox-business p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* section: "più di 500.000 team utilizzano..." */
+
+.dropbox-companies-numbers {
+    max-width: 500px;
+    padding-bottom: 110px;
+}
+
+.dropbox-companies-numbers a {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+/* section: designit-- square layout */
+
+.designit {
+    display: flex;
+    flex-direction: row;
+    height: 480px;
+    width: 100%;
+}
+
+.left-square-designit {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+}
+
+.central-square-designit {
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.designit .central-square-designit h2 {
+    font-size: 50px;
+} 
+
+.designit .central-square-designit .trademark-symbol {
+    font-size: 15px;
+}
+
+.designit .central-square-designit p {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+.designit .central-square-designit .company-reference {
+    font-weight: 400;
+}
+
+.designit .central-square-designit .quote-designit {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+.designit .central-square-designit .bold-word {
+    font-weight: 600;
+}
+
+.designit .central-square-designit hr {
+    width: 90px;
+    border: 0.5px solid lightgrey;
+    margin-bottom: 35px;
+}
+
+.right-square-designit {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.designit .left-square-designit .little-square-inside, .designit .right-square-designit .little-square-inside {
+    width: calc(100vw / 6);
+    aspect-ratio: 1/1;
+    flex-grow: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.designit .left-square-designit .little-square-inside img, .designit .right-square-designit .little-square-inside img {
+    width: 55%;
+    height: auto;
+    object-fit: contain;
+    filter: invert(1);
+}
+
+
+
+
+/* box colours designit section*/
+
+.designit .left-square-designit .designit-logo {
+    background-color: #A3D39B;
+}
+
+.designit .left-square-designit .arizona {
+    background-color: #61082B;
+}
+
+.designit .left-square-designit .uf-florida {
+    background-color: #0093CE;
+}
+
+.designit .left-square-designit .topps {
+    background-color: #FF1D1D;
+}
+
+
+.designit .right-square-designit .world-bicycle {
+    background-color: #D5001E;
+}
+
+.designit .right-square-designit .hearst {
+    background-color: #B4D0E7;
+}
+
+.designit .right-square-designit .lonely-planet {
+    background-color: #0D2481;
+}
+
+.designit .right-square-designit .clear-channel {
+    background-color: #FFD830;
+}
+
+
+/* section: " porta dropbox nella tua azienda" */
+
+.free-trial-container {
+    background-color: #B4D0E7;
+    margin-bottom: 150px;
+}
+
+.container-normal .free-trial {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.free-trial-container .free-trial h2 {
+    padding: 0;
+    width: 50%;
+    color: #61082B;
+}
+
+.free-trial-container .free-trial button {
+    border: 0px;
+    color: grey;
+    background-color: white;
+    padding: 10px 2px;
+    width: 230px;
+}
+
+/* frequently asked questions */
+
+.container-normal .frequently-asked {
+    padding-bottom: 150px;
+}
+
+.container-normal .frequently-asked h4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid grey;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-normal .frequently-asked h4:last-child {
+    border-bottom: 1px solid grey;
+}
+
+/* footer */
+
+
+footer .container-big {
+    background-color: black;
+    min-height: 435px;
+    margin: 0;
+}
+
+footer .container-big .content-big .alignment-footer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+footer .container-big .content-big {
+    color: white;
+}
+
+footer .container-big .content-big .box-footer{
+    color:  white;
+    width: calc(100% / 5);
+    padding-bottom: 120px;
+}
+
+footer .container-big .content-big hr {
+    margin-bottom: 30px;
+    width: 90px;
+    border: 0.5px solid lightgrey;
+}
+
+footer .container-big .content-big p {
+    font-size: 10px;
+    color: grey;
+    display: flex;
+    gap: 3px;
+    align-items: flex-end;
+}
+
+.box-footer h5{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.box-footer ul li a {
+    text-decoration: none;
+    color:  white;
+    font-size: 12px;
+}
+
+.box-footer ul li {
+    list-style: none;
+}
