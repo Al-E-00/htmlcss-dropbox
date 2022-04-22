@@ -393,10 +393,12 @@ header .header-right-menu button {
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 3);
+    aspect-ratio: 1/1;
 }
 
 .central-square-designit {
     width: calc(100% / 3);
+    aspect-ratio: 1/1;
     background-color: #F5F5F5;
     padding: 40px;
 }
@@ -443,7 +445,7 @@ header .header-right-menu button {
 
 .designit .left-square-designit .little-square-inside, .designit .right-square-designit .little-square-inside {
     width: calc(100vw / 6);
-    height: calc(100vw / 6);
+    aspect-ratio: 1/1;
     flex-grow: 0;
     display: flex;
     align-content: center;
