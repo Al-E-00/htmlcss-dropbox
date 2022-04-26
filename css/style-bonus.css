@@ -53,10 +53,11 @@ header .header-left-menu img {
     padding: 6px;
 }
 
-header .header-right-menu button {
+header .button-access {
     width: 50px;
     height: 25px;
     padding: 2px 2px;
+    color: white;
 }
 
 /* first section: "Tutto ciò che ti serve per il lavoro.." */
